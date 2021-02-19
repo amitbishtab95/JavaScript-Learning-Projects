@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #88d5e9;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255) ;
+    flex: 0 0 80%;
+    text-transform: capitalize;
+}
+#sendBtn{
+    display: block;
+    font-size: 2rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    color: #fff;
+    background: #6cc3d8;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+  
+}
+#sendBtn:hover{
+    opacity: 0.8;
+}
+
+input[type=text]{
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 3px solid #88d5e9;
+    outline: none;
+}
+input[type=text]:focus{
+    box-shadow: 0 0 10px #88d5e9;
+}
+#messageOut{
+    margin: 0.5rem 0;
+    color:#88d5e9
+}
